@@ -5,8 +5,8 @@ logo: /static/img/avatar.png
 github: https://github.com/thuka1500
 about: Freelance developer
 
-baseurl: "https://thuka1500.github.io/"
-url: "https://thuka1500.github.io/"
+baseurl: "https://thuka1500.github.io"
+url: "https://thuka1500.github.io"
 
 allowsearch: true
 
