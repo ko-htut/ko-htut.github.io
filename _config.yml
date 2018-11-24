@@ -1,12 +1,12 @@
-title: John Smith
+title: My Blog
 description: My Personal Blog
-author: John Smith
+author: Min Than Htut
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
+github: https://github.com/thuka1500
 about: Freelance developer
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: "https://thuka1500.github.io/"
+url: "https://thuka1500.github.io/"
 
 allowsearch: true
 
