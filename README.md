@@ -3,7 +3,7 @@
 This is a simple personal material theme, best suited for personal authors, programmars, bloggers. 
 
 ### Demo
-* [https://thuka1500.github.io/](https://thuka1500.github.io/)
+* [https://kominthanhtut.github.io/](https://kominthanhtut.github.io/)
 
 #### Feature
 
