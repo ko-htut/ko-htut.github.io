@@ -2,11 +2,11 @@ title: My Blog
 description: My Personal Blog
 author: Min Than Htut
 logo: /static/img/mmk_logo.png
-github: https://github.com/thuka1500
+github: https://github.com/kominthanhtut
 about: Freelance developer
 
-baseurl: "https://thuka1500.github.io"
-url: "https://thuka1500.github.io"
+baseurl: "https://kominthanhtut.github.io"
+url: "https://kominthanhtut.github.io"
 
 allowsearch: true
 
