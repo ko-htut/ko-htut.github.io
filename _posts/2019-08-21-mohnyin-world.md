@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Zkar
-date:   2019-08-21 24:28:00
-categories: others
+title:  "Zkar!"
+date:   2016-06-04 13:50:39
+categories: jekyll
 ---
 Zkar Application ကို EBox Team မွ ေရးသားထားပါသည္...
 
