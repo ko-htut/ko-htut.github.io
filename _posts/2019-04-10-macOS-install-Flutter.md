@@ -9,7 +9,6 @@ catalog: true
 tags:
     - macOS
     - Flutter
-    - Dart
     - SDK
     - install
     - Guide

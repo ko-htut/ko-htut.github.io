@@ -6,7 +6,7 @@ email: fellinglove8@gmail.com
 description: "Every failure is leading towards success."
 keyword: "KH, Ko Htut's Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
 url: "https://ko-htut.github.io"         
-baseurl: ""
+baseurl: "https://ko-htut.github.io"
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
@@ -33,7 +33,8 @@ twitter_username:   MinThanHtut5
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: true
+ # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
