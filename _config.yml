@@ -1,12 +1,12 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: KH Blog
+SEOTitle: ကိုထွဋ်  blog | KH Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: fellinglove8@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "https://ko-htut.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+keyword: "KH, Ko Htut's Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
+url: "https://ko-htut.github.io"         
+baseurl: ""
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
 # Sidebar settings
@@ -20,8 +20,8 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 RSS: false
 # weibo_username:     qiubaiying
 zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
+github_username:    ko-htut
+facebook_username:  ko.htut.1234
 jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
@@ -67,26 +67,23 @@ gitalk:
   repo: ko-htut.github.io    #仓库名称
   owner: ko-htut    #github用户名
   admin: ko-htut
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-
-# 统计
+  distractionFreeMode: true 
 
 # Analytics settings
 # Baidu Analytics
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: kohtut.dev             # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需
+ga_track_id: 'UA-90855596-1'            
+ga_domain: kohtut.dev            
 
 
 
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-tags: true                    
+featured-condition-size: 1             
 
 
 
@@ -100,15 +97,15 @@ service-worker: true
 friends: [
     {
         title: "java",
-        href: "http://zhengwuyang.com"
+        href: "https://www.java.com/en/"
     },{
-        title: "Goland",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "Golang",
+        href: "https://golang.org/"
     },{
         title: "Flutter",
-        href: "https://apple.com"
+        href: "https://flutter.dev/"
     },{
         title: "Dart",
-        href: "https://developer.apple.com/"
+        href: "https://dart.dev/"
     }
 ]
