@@ -32,20 +32,22 @@ Flutter SDK ထည့်သွင်းရန် အောက်ပါတို�
   - zip
 
 
-### Flutter SDK Download
+### Get Started
 
+**Flutter SDK** အား ထည့်သွင်းရန် Terminal တွင်အောက်ပါ command-line အား ရိုက်ထည့်၍  sdk အား ဦးစွာ Download ဆွဲချပါ .
 ```
 cd ~/development
 unzip ~/Downloads/flutter_macos_v1.12.13+hotfix.9-stable.zip
 ```
 
+ **သို့မဟုတ်** .
 ```
 git clone https://github.com/flutter/flutter.git -b stable
 ```
+ဟုလည်း ommand-line အား ရိုက် ကာ sdk အား download ဆွဲ၍ ကိုယ်တိုင် zip ဖြေထားနိင်ပါသည် .
 
 ```
 export PATH="$PATH:`pwd`/flutter/bin"
-
 ```
 
 ```
