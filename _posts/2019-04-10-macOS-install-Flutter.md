@@ -15,3 +15,30 @@ tags:
     - Guide
 ---
 
+```
+cd ~/development
+unzip ~/Downloads/flutter_macos_v1.12.13+hotfix.9-stable.zip
+
+```
+
+```
+git clone https://github.com/flutter/flutter.git -b stable
+
+```
+
+```
+export PATH="$PATH:`pwd`/flutter/bin"
+
+```
+
+```
+flutter precache
+```
+
+```
+flutter doctor
+
+```
+
+
+
