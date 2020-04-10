@@ -7,8 +7,10 @@ author:     BY
 header-img: img/flutter.jpg
 catalog: true
 tags:
-    - macOs
+    - macOS
     - Flutter
     - Dart
     - SDK
+    - Install
+    - Guide
 ---
