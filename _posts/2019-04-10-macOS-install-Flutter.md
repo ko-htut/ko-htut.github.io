@@ -44,7 +44,7 @@ unzip ~/Downloads/flutter_macos_v1.12.13+hotfix.9-stable.zip
 ```
 git clone https://github.com/flutter/flutter.git -b stable
 ```
-ဟုလည်း ommand-line အား ရိုက် ကာ sdk အား download ဆွဲ၍ ကိုယ်တိုင် zip ဖြေထားနိင်ပါသည် .
+ဟုလည်း command-line အား ရိုက် ကာ sdk အား download ဆွဲ၍ ကိုယ်တိုင် zip ဖြေထားနိင်ပါသည် .
 
 ```
 export PATH="$PATH:`pwd`/flutter/bin"
