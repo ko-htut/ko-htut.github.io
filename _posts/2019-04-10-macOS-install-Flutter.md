@@ -18,18 +18,18 @@ tags:
 
 ### System requirements ###
 Flutter SDK ထည့်သွင်းရန် အောက်ပါတို့ကို အရင်ထည်သွင်းပေးဖို့လို အပ်ပါသည်..
-ဟစျ
+
 - **Operating Systems** : macOS (64-bit)
 - **Disk Space**: 2.8 GB (does not include disk space for IDE/tools).
-- **Tools**: Flutter sdk ထည့်သွင်းဖို့ အောက်ပါ command-line tools များ ရှိမရှိကို ဦးစွာစစ်ဆေးပါ 
-  -bash
-  -curl
-  -git 2.x
-  -mkdir
-  -rm
-  -unzip
-  -which
-  -zip
+- **Tools**: Flutter sdk ထည့်သွင်းဖို့ အောက်ပါ command-line tools များ ရှိမရှိကို ဦးစွာစစ်ဆေးပါ .
+  - bash
+  - curl
+  - git 2.x
+  - mkdir
+  - rm
+  - unzip
+  - which
+  - zip
 
 
 ### Flutter SDK Download
