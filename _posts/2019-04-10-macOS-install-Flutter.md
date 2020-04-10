@@ -11,6 +11,7 @@ tags:
     - Flutter
     - Dart
     - SDK
-    - Install
+    - install
     - Guide
 ---
+
