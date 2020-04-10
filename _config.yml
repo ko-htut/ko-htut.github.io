@@ -2,11 +2,11 @@ title: My Blog
 description: My Personal Blog
 author: Ko Min Than Htut
 logo: /static/img/64494741_113009163294462_6826808160024526848_n.jpg
-github: https://github.com/kominthanhtut
+github: https://github.com/ko-htut
 about: Freelance developer
 
-baseurl: "https://kominthanhtut.github.io"
-url: "https://kominthanhtut.github.io"
+baseurl: "https://ko-htut.github.io"
+url: "https://ko-htut.github.io"
 
 allowsearch: true
 
