@@ -2,7 +2,7 @@
 layout:     post
 title:      macOS install Aqueduct
 subtitle:   macOs ပေါ်တွင် Aqueduct SDK သွင်းနည်း
-date:       2019-04-10
+date:       2019-04-11
 author:     BY
 header-img: img/aqueduct.png
 catalog: true
