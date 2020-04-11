@@ -89,13 +89,14 @@
                 </ul>
 
 
-                <!--Gitalk  -->
+                <!--Gitalk评论start  -->
                 {% if site.gitalk.enable %}
-                <!-- Gitalk  -->
+                <!-- 引入Gitalk评论插件  -->
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
                 <div id="gitalk-container"></div>
-
+                <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+                <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
                 <script src="{{ site.baseurl }}/js/md5.min.js"></script>
                 <script type="text/javascript">
                     var gitalk = new Gitalk({
@@ -117,11 +118,11 @@
                 <!-- Gitalk end -->
 
                 {% if site.disqus_username %}
-                <!-- disqus  start -->
+                <!-- disqus 评论框 start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
-                <!-- disqus end -->
+                <!-- disqus 评论框 end -->
                 {% endif %}
 
             </div>
@@ -180,7 +181,7 @@
 
 
 {% if site.disqus_username %}
-<!-- disqus  start  -->
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
@@ -195,7 +196,7 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
 </script>
-<!-- disqus  end -->
+<!-- disqus 公共JS代码 end -->
 {% endif %} {% if site.anchorjs %}
 <!-- async load function -->
 <script>
@@ -213,14 +214,21 @@
         s.parentNode.insertBefore(o, s);
     }
 </script>
-
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
     async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js", function() {
-
+        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
+        // anchors.options = {
+        //   visible: 'always',
+        //   placement: 'right',
+        //   icon: '#'
+        // };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
     })
 </script>
 <style>
+    /* place left on bigger screen */
+    
     @media all and (min-width: 800px) {
         .anchorjs-link {
             position: absolute;
