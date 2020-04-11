@@ -91,7 +91,7 @@
 
                 <!--Gitalk  -->
                 {% if site.gitalk.enable %}
-                <!-- 引入Gitalk评论插件  -->
+                <!-- Gitalk  -->
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
                 <div id="gitalk-container"></div>
@@ -117,11 +117,11 @@
                 <!-- Gitalk end -->
 
                 {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
+                <!-- disqus  start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
-                <!-- disqus 评论框 end -->
+                <!-- disqus end -->
                 {% endif %}
 
             </div>
@@ -180,7 +180,7 @@
 
 
 {% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<!-- disqus  start  -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
