@@ -59,4 +59,12 @@ flutter doctor
 ```
 
 
+အကယ်၍ command ရိုက်ရာတွင် #bash: flutter: command not found ဟုပေါ်လာပါက
+
+```
+bash: flutter: command not found
+```
+
+
+
 
