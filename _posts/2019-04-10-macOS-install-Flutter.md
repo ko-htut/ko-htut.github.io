@@ -59,12 +59,16 @@ flutter doctor
 ```
 
 
-အကယ်၍ command ရိုက်ရာတွင် #bash: flutter: command not found ဟုပေါ်လာပါက
+အကယ်၍ command ရိုက်ရာတွင် **bash: flutter: command not found** ဟုပေါ်လာပါက
 
 ```
 bash: flutter: command not found
 ```
-
+Flutter ကို sdk ရှိရာ ပတ်လမ်းကြောင်းကို sudo ထဲတွင်ကြေငြာပေးရပါမည်
+```
+sudo nano /etc/paths
+```
+ဟု ရိုက်ပါ
 
 
 
