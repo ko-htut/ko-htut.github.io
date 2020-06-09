@@ -46,10 +46,15 @@ git clone https://github.com/flutter/flutter.git -b stable
 ```
 ဟုလည်း command-line အား ရိုက် ကာ sdk အား download ဆွဲ၍ ကိုယ်တိုင် zip ဖြေထားနိင်ပါသည် .
 
+
+zip ဖြေထားသော Flutter SDK folder ကို Terminal ဖွင့်၍ Flutter sdk ကို အောက်ပါ comment line ဖြင့် run ပါ **( Termnal အားမပိတ်ပါနှင့် )**
 ```
 export PATH="$PATH:`pwd`/flutter/bin"
 ```
+ထိုသို့ run ပြီးသောအခါ Flutter ကို လက်ရှိ Terminal တွင် ယာယီ အသုံးပြုနိင်မည် ဖြစ်သည် ။
 
+
+ဆက်လက်ပီး လက်ရှိ Terminal တွင်ပင် Flutter development ပြုလုပ်ရာတွင်လိုအပ်သော tool များကို Download ဆွဲပါမည် **flutter precache** comment line အားရိုက်၍ tool များအား download ဆွဲပါမည်..။
 ```
 flutter precache
 ```
@@ -64,7 +69,7 @@ flutter doctor
 ```
 bash: flutter: command not found
 ```
-Flutter ကို sdk ရှိရာ ပတ်လမ်းကြောင်းကို sudo ထဲတွင်ကြေငြာပေးရပါမည်
+Flutter sdk ရှိရာ ပတ်လမ်းကြောင်းကို sudo ထဲတွင်ကြေငြာပေးရပါမည်
 ```
 sudo nano /etc/paths
 ```
