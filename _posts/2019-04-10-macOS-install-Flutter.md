@@ -58,7 +58,7 @@ flutter precache
 flutter doctor
 ```
 
-
+### Note
 အကယ်၍ command ရိုက်ရာတွင် **bash: flutter: command not found** ဟုပေါ်လာပါက
 
 ```
@@ -69,6 +69,7 @@ Flutter ကို sdk ရှိရာ ပတ်လမ်းကြောင်း
 sudo nano /etc/paths
 ```
 ဟု ရိုက်ပါ
+
 
 
 
