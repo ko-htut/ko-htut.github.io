@@ -53,15 +53,16 @@ export PATH="$PATH:`pwd`/flutter/bin"
 ```
 ထိုသို့ run ပြီးသောအခါ Flutter ကို လက်ရှိ Terminal တွင် ယာယီ အသုံးပြုနိင်မည် ဖြစ်သည် ။
 
-
 ဆက်လက်ပီး လက်ရှိ Terminal တွင်ပင် Flutter development ပြုလုပ်ရာတွင်လိုအပ်သော tool များကို Download ဆွဲပါမည် **flutter precache** comment line အားရိုက်၍ tool များအား download ဆွဲပါမည်..။
 ```
 flutter precache
 ```
-
+ပီးဆုံးသွားပါက Flutter pagckage များနှင့် Flutter dependencies များကျန်ရှိ ၊ မရှိကို **Flutter doctor** ဟုရိုက်၍ စစ်ဆေးနိင်ပါသည်။ flutter depencies များကျန်ရှိခြင်းမရှိပါက flutter ကိုအသုံးပြုရန််အတွက် ပြင်ဆင်ခြင်း ပြီးဆုံးပါပီ ။ **Terminal မှမထွက်ပါနှင့်**
 ```
 flutter doctor
 ```
+ ( ဆက်လက်၍ Flutter ကို အမြဲတမ်းအသုံးပြုနိင်ရန်် ၊ Flutter comment line tool များအား Terminal (zsh / Bash )မှသိရန်အတွက် Flutter sdk ပတ်လမ်းကို mainထဲသို့ ပြောင်းရွေ့ ကြပါမည် ။)
+
 
 ### Note
 အကယ်၍ command ရိုက်ရာတွင် **bash: flutter: command not found** ဟုပေါ်လာပါက
@@ -69,7 +70,7 @@ flutter doctor
 ```
 bash: flutter: command not found
 ```
-Flutter sdk ရှိရာ ပတ်လမ်းကြောင်းကို sudo ထဲတွင်ကြေငြာပေးရပါမည်
+Flutter sdk ရှိရာ ပတ်လမ်းကြောင်းကို sudo paths ထဲတွင်ထည့်ပေးရပါမည်။
 ```
 sudo nano /etc/paths
 ```
