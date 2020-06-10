@@ -3,7 +3,7 @@ layout:     post
 title:      macOS install Flutter
 subtitle:   macOs ပေါ်တွင် Flutter SDK သွင်းနည်း
 date:       2019-04-10
-author:     BY
+author:     Ko Htut
 header-img: img/flutter.jpg
 catalog: true
 tags:
