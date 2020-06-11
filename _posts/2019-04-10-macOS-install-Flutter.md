@@ -69,7 +69,8 @@ Flutter Comment line များကို terminal တွင် ခေါ်ယ
 
  . မိမိလက်ရှိ mac os ၏ Home Directory သို့ Flutter Sdk ဖိုင်အားရွေ့ပါ ။
  . မိမိ mac os ၏ version အလိုက် zsh profile သို့မဟုတ် bash profile ကို create လုပ်ပါမည် ။
-1 : ပ
+
+1 : 
 ```
 rc
 ```
@@ -81,7 +82,7 @@ $HOME/.bash_profile ( သို့မဟုတ် ) $HOME/.bashrc
 ```
 $HOME/.zshrc
 ```
-
+ပြီးလျင် Flutter Sdk ထားရာ လမ်းကြောင်းကိုထည့်ပေးပါ ။
 
 ### Note
 အကယ်၍ command ရိုက်ရာတွင် **bash: flutter: command not found** ဟုပေါ်လာပါက
@@ -93,10 +94,10 @@ Flutter sdk ရှိရာ ပတ်လမ်းကြောင်းကို 
 ```
 sudo nano /etc/paths
 ```
-ဟု ထည့်ပါ ။ ပြီးလျှင် **control+Shit+X** ဖြင့် ထွက်ပါ ။ 
+ဟု terminal တွင်ရိုက်ထည့်ပါ ။ မိမိ၏ Flutter Sdk ထားရာလမ်းကြောင်းကို ထည့်ပေးပါ ။ ပြီးလျှင် **control+Shit+X** ဖြင့် ထွက်ပါ ။ 
 
 Terminal အားပိတ်ပီးပြန်ဖွင့်ကြည့်ပါ ... 
-Flutter comment line 
+Flutter tool များအားအသုံးပြုနိင်ပါပီ.... :3
 
 
 
