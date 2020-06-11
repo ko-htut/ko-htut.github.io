@@ -57,11 +57,30 @@ export PATH="$PATH:`pwd`/flutter/bin"
 ```
 flutter precache
 ```
-ပီးဆုံးသွားပါက Flutter pagckage များနှင့် Flutter dependencies များကျန်ရှိ ၊ မရှိကို **Flutter doctor** ဟုရိုက်၍ စစ်ဆေးနိင်ပါသည်။ flutter depencies များကျန်ရှိခြင်းမရှိပါက flutter ကိုအသုံးပြုရန််အတွက် ပြင်ဆင်ခြင်း ပြီးဆုံးပါပီ ။ **Terminal မှမထွက်ပါနှင့်**
+ပီးဆုံးသွားပါက Flutter pagckage များနှင့် Flutter dependencies များကျန်ရှိ ၊ မရှိကို **Flutter doctor** ဟုရိုက်၍ စစ်ဆေးနိင်ပါသည်။ flutter depencies များကျန်ရှိခြင်းမရှိပါက flutter ကိုအသုံးပြုရန််အတွက် ပြင်ဆင်ခြင်း ပြီးဆုံးပါပီ ။ 
 ```
 flutter doctor
 ```
  ( ဆက်လက်၍ Flutter ကို အမြဲတမ်းအသုံးပြုနိင်ရန်် ၊ Flutter comment line tool များအား Terminal (zsh / Bash )မှသိရန်အတွက် Flutter sdk ပတ်လမ်းကို mainထဲသို့ ပြောင်းရွေ့ ကြပါမည် ။)
+
+## Update Path
+
+Flutter Comment line များကို terminal တွင် ခေါ်ယူအသုံးပြုနိင်ရန််် ( သို့မဟုတ် )အမြဲတမ်းအသုံးပြုနိင်ရန် အတွက် Flutter Sdk ကို bash or zsh profile တွင်းသို့ ထည့်သွင်းကြေငြာပေးရပါမည် ။
+
+ . မိမိလက်ရှိ mac os ၏ Home Directory သို့ Flutter Sdk ဖိုင်အားရွေ့ပါ ။
+ . မိမိ mac os ၏ version အလိုက် zsh profile သို့မဟုတ် bash profile ကို create လုပ်ပါမည် ။
+1 : ပ
+```
+rc
+```
+2 : မိမိသည် Bash ကိိို အသုံးပြုပါက **$HOME/.bash_profile ( သို့မဟုတ် ) $HOME/.bashrc** ဟုရိုက်ပါ
+```
+$HOME/.bash_profile ( သို့မဟုတ် ) $HOME/.bashrc
+```
+သို့မဟုတ် မိမိသည် Z shell ကို အသုံးပြုပါက  **$HOME/.zshrc** ဟုရိုက်ပါ
+```
+$HOME/.zshrc
+```
 
 
 ### Note
@@ -74,7 +93,10 @@ Flutter sdk ရှိရာ ပတ်လမ်းကြောင်းကို 
 ```
 sudo nano /etc/paths
 ```
-ဟု ရိုက်ပါ
+ဟု ထည့်ပါ ။ ပြီးလျှင် **control+Shit+X** ဖြင့် ထွက်ပါ ။ 
+
+Terminal အားပိတ်ပီးပြန်ဖွင့်ကြည့်ပါ ... 
+Flutter comment line 
 
 
 
