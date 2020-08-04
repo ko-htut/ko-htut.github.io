@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      YoYo Player
-subtitle:   SilverToBoxAdapter ကို အထာကျကျသုံးကြမယ်
+subtitle:   HLS(.m3u8) player
 date:       2020-08-05
 author:     Ko Htut
 header-img: img/yoyo_logo.png
