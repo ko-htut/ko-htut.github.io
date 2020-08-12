@@ -11,19 +11,25 @@ tags:
     - Package
 ---
 
+<h1 align="center">
+  <a href="https://kohtut.dev/2020/08/05/yo-yo-player/"><img src="https://raw.githubusercontent.com/ko-htut/yoyo-player/master/yoyo_logo.png" alt="KoHtut"></a>
+</h1>
 
 # YoYo Video Player
 
 YoYo Video Player is a HLS(.m3u8) video player for flutter.
 The [video_player](https://pub.dev/packages/yoyo_player) is a video player that allows you to select HLS video streaming by selecting the quality. YoYo Player wraps `video_player` under the hood and provides base architecture for developers to create their own set of UI and functionalities.
 
-![Pub Version (including pre-releases)](https://img.shields.io/pub/v/yoyo_player)
+![Pub Version (including pre-releases)](https://img.shields.io/pub/v/yoyo_player)  !
 
 # Features
 
 * You can select multiple quality and open
 * On video tap play/pause, mute/unmute, or perform any action on video.
 * Auto hide controls.
+* (.srt) Video Subtitle Support
+* (.m3u8) HLS Video Streaming Support
+* .mp4 , .mkv ,.m3u8 , LocalVideo Suppourt
 
 ## Install & Set up
 
@@ -50,12 +56,10 @@ import 'package:yoyo_player/yoyo_player.dart';
 A simple usage example:
 
 ```dart
-
 YoYoPlayer(
           aspectRatio: 16 / 9,
-          url:
-              "https://player.vimeo.com/external/440218055.m3u8?s=7ec886b4db9c3a52e0e7f5f917ba7287685ef67f&oauth2_token_id=1360367101",
-          videoIconStyle: VideoIconStyle(),
+          url:  "",
+          videoStyle: VideoStyle(),
           videoLoadingStyle: VideoLoadingStyle(),
         ),
 ```
@@ -63,13 +67,13 @@ YoYoPlayer(
 Change Icon
 
 ```dart
- videoIconStyle: VideoIconStyle({
-    play : Icons.play_arrow,
-    pause : Icons.play_arrow,
-    fullscreen : Icons.play_arrow,
-    forward : Icons.skip_next,
-    backward : Icons.skip_previous,
-  }
+ videoStyle: VideoStyle(
+    play : Icon(Icons.play_arrow),
+    pause : Icon(Icons.pause),
+    fullscreen : Icon(Icon(Icons.fullscreen)),
+    forward : Icon(Icons.skip_next),
+    backward : Icon(Icons.skip_previous),
+ )
 ```
 
 Change Video Loading
@@ -77,21 +81,54 @@ Change Video Loading
  videoLoadingStyle: VideoLoadingStyle(loading : Center(child: Text("Loading video")),
 ```
 
-## Player Icon custom style (VideoStyle)
+Play With Subtitle
+```dart
+        body: YoYoPlayer(
+          aspectRatio: 16 / 9,
+          //url ( .m3u8 video streaming link )
+          //example ( url :"https://sfux-ext.sfux.info/hls/chapter/105/1588724110/1588724110.m3u8" )
+          //example ( url :"https://player.vimeo.com/external/440218055.m3u8?s=7ec886b4db9c3a52e0e7f5f917ba7287685ef67f&oauth2_token_id=1360367101" )
+          url:  " ",
+          videoStyle: VideoStyle(),
+          videoLoadingStyle: VideoLoadingStyle(
+            loading: Center(
+              child: Text("Loading video"),
+            ),
+          ),
+          //subtitle ( ...srt subtitle link )
+          //example ( subtitle:"https://eboxmovie.sgp1.digitaloceanspaces.com/mmmmtest.srt")
+          subtitle: "",
+          // subtitle style
+          subtitleStyle: SubtitleStyle(),
+        ),
+```
 
-| Attributes | Type     | Description |
-|------------|----------|-------------|
-| play       | IconData | You can use any Icon style you want        |
-| pause      | IconData | You can use any Icon style you want        |
-| fullscreen | IconData | You can use any Icon style you want        |
-| forward    | IconData | You can use any Icon style you want        |
-| backward   | IconData | You can use any Icon style you want        |
+## Player custom style (VideoStyle)
+
+| Attributes   | Type      | Description                         |
+|--------------|-----------|-------------------------------------|
+| play         | Widget    | You can use any Widget you want     |
+| pause        | Widget    | You can use any Widget you want     |
+| fullscreen   | Widget    | You can use any Widget you want     |
+| forward      | Widget    | You can use any Widget you want     |
+| backward     | Widget    | You can use any Widget you want     |
+| playedColor  | Color     | You can use any Icon style you want |
+| qualitystyle | TextStyle | You can use any Text style you want |
+| qashowstyle  | TextStyle | You can use any Text style you want |
 
 ## Player Loading custom style (VideoStyle)
 
-| Attributes | Type     | Description |
-|------------|----------|-------------|
-| loading       | Widget | You can use any loading style you want       |
+| Attributes | Type   | Description                            |
+|------------|--------|----------------------------------------|
+| loading    | Widget | You can use any loading style you want |
+
+## Subtitle Style
+| Attributes | Type       | Description                             |
+|------------|------------|-----------------------------------------|
+| fontweight | FontWeight | You can use any Subtitle style you want |
+| colors     | Color      | You can use any Subtitle style you want |
+| background | Color      | You can use any Subtitle style you want |
+| fontSize   | double     | You can use any Subtitle style you want |
 
 
 # MIT License
