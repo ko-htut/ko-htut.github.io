@@ -4,7 +4,7 @@ title:      YoYo Player
 subtitle:   HLS(.m3u8) player
 date:       2020-08-05
 author:     Ko Htut
-header-img: img/yoyo_logo.png
+header-img: img/post-bg-desk.jpg
 catalog: true
 tags:
     - Flutter
