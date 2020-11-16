@@ -75,7 +75,7 @@ gitalk:
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            
+ga_track_id: 'G-DPWYQNKJGH'            
 ga_domain: kohtut.dev            
 
 
@@ -108,5 +108,8 @@ friends: [
     },{
         title: "Dart",
         href: "https://dart.dev/"
-    }
+    },{
+        title: "Swift",
+        href: "https://developer.apple.com/swift/"
+    },
 ]
