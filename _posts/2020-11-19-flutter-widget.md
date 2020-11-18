@@ -13,7 +13,7 @@ tags:
     - Beginners
 ---
 <h1 align="center">
-  <a href="https://kohtut.dev/2020/11/19/flutter-wiget/"><img src="https://www.inovex.de/blog/wp-content/uploads/2019/01/Flutter-3.png" alt="KoHtut"></a>
+  <a href="https://kohtut.dev/2020/11/19/flutter-widget/"><img src="https://www.inovex.de/blog/wp-content/uploads/2019/01/Flutter-3.png" alt="KoHtut"></a>
 </h1>
 
 ## OverflowBar
