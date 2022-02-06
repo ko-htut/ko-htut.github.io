@@ -2,7 +2,7 @@
 layout:     post
 title:      Flutter Devilf Game
 subtitle:   devilf game 
-date:       2019-04-28
+date:       2022-02-06
 author:     Ko Htut
 header-img: img/flutter.jpg
 catalog: true

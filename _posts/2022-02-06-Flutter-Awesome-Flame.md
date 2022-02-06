@@ -2,7 +2,7 @@
 layout:     post
 title:      Flutter Awesome Flame
 subtitle:   awesome flame 
-date:       2019-04-28
+date:       2022-02-06
 author:     Ko Htut
 header-img: img/flutter.jpg
 catalog: true
@@ -42,7 +42,7 @@ A fun little 2D-PvP-turn based game written using the Flame engine for the very 
  **Repo** .
 
 
-| ![](https://kohtut.dev/img/hallowen_battle/ss1.png) | ![](https://kohtut.dev/img/hallowen_battle/ss2.png) |
+| ![](https://kohtut.me/img/hallowen_battle/ss1.png) | ![](https://kohtut.me/img/hallowen_battle/ss2.png) |
 
 
 ```
