@@ -2,10 +2,10 @@
 title: Ko Htut Blog
 SEOTitle: Ko Htut Blog
 header-img: img/post-bg-desk.jpg
-email: minthanhtut@strategyfirst.edu.mm
+email: info@kohtut.me
 description: "Every failure is leading towards success."
 keyword: "KH, Ko Htut's Blog, A Htut, Mi Htut, iOS, Apple, iPhone"
-url: "https://ko-htut.github.io"         
+url: "https://kohtut.me"         
 baseurl: ""
 github_repo: "https://github.com/ko-htut/ko-htut.github.io.git" # you code repository
 
@@ -23,7 +23,7 @@ RSS: false
 github_username:    ko-htut
 facebook_username:  ko.htut.1234
 # jianshu_username:   e71990ada2fd
-twitter_username:   MinThanHtut5
+twitter_username:   ko_htutz
 
 
 
@@ -76,7 +76,7 @@ gitalk:
 
 # Google Analytics
 ga_track_id: 'G-DPWYQNKJGH'            
-ga_domain: kohtut.dev            
+ga_domain: kohtut.me           
 
 
 
