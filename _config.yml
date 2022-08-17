@@ -5,45 +5,36 @@ header-img: img/post-bg-desk.jpg
 email: info@kohtut.me
 description: "Every failure is leading towards success."
 keyword: "KH, Ko Htut's Blog, A Htut, Mi Htut, iOS, Apple, iPhone"
-url: "https://kohtut.me"         
+url: "https://kohtut.me"
 baseurl: ""
 github_repo: "https://github.com/ko-htut/ko-htut.github.io.git" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar-avatar: /img/kohtut.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
 # zhihu_username:     qiubaiying
-github_username:    ko-htut
-facebook_username:  ko.htut.1234
+github_username: ko-htut
+facebook_username: ko.htut.1234
 # jianshu_username:   e71990ada2fd
-twitter_username:   ko_htutz
-
-
-
+twitter_username: ko_htutz
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json"]
-anchorjs: true
- # if you want to customize anchor. check out line:181 of `post.html`
-
-
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json"]
+anchorjs:
+    true
+    # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -52,64 +43,44 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+    input: GFM # use Github Flavored Markdown !important
 
-
-
-# 
+#
 # Disqus（https://disqus.com/）
 # disqus_username: disqus_wlgwEbRGYr
 
 # Gitalk
 gitalk:
-  enable: true   
-  clientID: f2c84e7629bb1446c1a4                            #clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #clientSecret
-  repo: ko-htut.github.io    
-  owner: ko-htut    
-  admin: ko-htut
-  distractionFreeMode: true 
+    enable: true
+    clientID: f2c84e7629bb1446c1a4 #clientID
+    clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d #clientSecret
+    repo: ko-htut.github.io
+    owner: ko-htut
+    admin: ko-htut
+    distractionFreeMode: true
 
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'G-DPWYQNKJGH'            
-ga_domain: kohtut.me           
-
-
-
-
+ga_track_id: "G-DPWYQNKJGH"
+ga_domain: kohtut.me
 
 # Featured Tags
-featured-tags: true                    
-featured-condition-size: 1             
-
-
+featured-tags: true
+featured-condition-size: 1
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # Friends
-friends: [
-    {
-        title: "java",
-        href: "https://www.java.com/en/"
-    },{
-        title: "Golang",
-        href: "https://golang.org/"
-    },{
-        title: "Flutter",
-        href: "https://flutter.dev/"
-    },{
-        title: "Dart",
-        href: "https://dart.dev/"
-    },{
-        title: "Swift",
-        href: "https://developer.apple.com/swift/"
-    },
-]
+friends:
+    [
+        { title: "java", href: "https://www.java.com/en/" },
+        { title: "Golang", href: "https://golang.org/" },
+        { title: "Flutter", href: "https://flutter.dev/" },
+        { title: "Dart", href: "https://dart.dev/" },
+        { title: "Swift", href: "https://developer.apple.com/swift/" },
+    ]
